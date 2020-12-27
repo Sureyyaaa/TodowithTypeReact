@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+}
+.todo{
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.form{
+    display: flex;
+    padding-right: 1rem;
+    justify-content: space-between;
+    background-color: rgba(15, 15, 15, 0.87);
+    .form-control{
+        width: 95%;
+        border: none;
+        outline: none;
+        padding: 0.3rem;
+    }
+}
+.list{
+    li{
+        background-color: rgba(150, 136, 110, 0.705);
+    }
+}
